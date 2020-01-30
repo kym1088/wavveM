@@ -555,7 +555,9 @@ class iIi ( object ) :
       else :
        IIII = re . sub ( r'uicode:' , '' , I111IIIiIii )
        O0oO000O0O = ''
-       if 9 - 9: I11i % OoooooooOO . oO0o % I11i
+       if oOOo0 . get ( 'bottom_taglist' ) [ 0 ] == 'playy' :
+        II11Ii1iI1iII += ' [playy]'
+        if 9 - 9: I11i % OoooooooOO . oO0o % I11i
       iI1i111I1Ii = { 'title' : unicode ( II11Ii1iI1iII )
  , 'thumbnail' : I1i
  , 'uicode' : genre
@@ -718,6 +720,7 @@ class iIi ( object ) :
     I1iI1iIi111i [ 'price' ] = 'all'
     if 83 - 83: I1ii11iIi11i - I1IiiI + OOooOOo
     I1iI1iIi111i [ 'orderby' ] = 'paid'
+    I1iI1iIi111i [ 'sptheme' ] = 'svod'
     if 5 - 5: Ii1I
     if 46 - 46: IiII
    I1iI1iIi111i [ 'limit' ] = self . LIST_LIMIT

@@ -31,13 +31,13 @@ sys . path . append ( __data__ )
 if 94 - 94: i1IIi % Oo0Ooo
 o0oO0 = [
  { 'title' : '홈' , 'uicode' : 'GN1' , 'came' : 'home' }
- , { 'title' : '방송' , 'uicode' : 'GN2' , 'came' : 'broadcast' }
- , { 'title' : 'LIVE' , 'uicode' : 'GN3' , 'came' : 'live' }
- , { 'title' : '영화' , 'uicode' : 'GN4' , 'came' : 'movie' }
+ , { 'title' : 'LIVE 채널' , 'uicode' : 'GN3' , 'came' : 'live' }
+ , { 'title' : 'VOD 방송' , 'uicode' : 'GN2' , 'came' : 'broadcast' }
+ , { 'title' : '영화(Movie)' , 'uicode' : 'GN4' , 'came' : 'movie' }
  , { 'title' : '해외시리즈' , 'uicode' : 'GN12' , 'came' : 'global' }
 
 , { 'title' : '분류별 탐색 --- 방송(VOD)' , 'uicode' : 'GENRE' , 'came' : 'vodgenre' }
- , { 'title' : '분류별 탐색 --- 영화(Movie)' , 'uicode' : 'GENRE' , 'came' : 'moviegenre' }
+ , { 'title' : '분류별 탐색 --- 영화(wavvie)' , 'uicode' : 'GENRE' , 'came' : 'moviegenre' }
 
 , { 'title' : '검색' , 'uicode' : 'SEARCH' , 'came' : '-' }
  , { 'title' : 'Watched(시청목록)' , 'uicode' : 'WATCH' , 'came' : '-' }
@@ -90,7 +90,7 @@ def IiIIIiI1I1 ( ) :
  if 6 - 6: I1IiiI / Oo0Ooo % Ii1I
  if 84 - 84: i11iIiiIii . o0oOOo0O0Ooo
 def o0O00oooo ( ) :
- O00o = __addon__ . getSetting ( 'exclusion19' )
+ O00o = __addon__ . getSetting ( 'exclusion21' )
  if O00o == 'false' :
   return False
  else :
@@ -644,9 +644,9 @@ def OOooo ( args ) :
  , 'pallycon-customdata' : iIi1i1iIi1iI
  , 'referer' : I11iiiii1II
  , 'sec-fetch-mode' : 'cors'
+ , 'sec-fetch-site' : 'same-site'
 
-   , 'sec-fetch-site' : 'cross-site'
- , 'user-agent' : oo00
+   , 'user-agent' : oo00
  }
    Oo000ooOOO = iiIi1iI1iIii + '|' + urllib . urlencode ( I1II ) + '|R{SSM}|'
    if 31 - 31: iIii1I11I1II1 % I11i % ooOoO0o . Ii1I - I11i
@@ -803,15 +803,14 @@ def Ii1i1i1i1I1Ii ( args ) :
    , 'viewage' : iIIii . get ( 'viewage' )
  }
    if 76 - 76: I1IiiI . ooOoO0o - I1ii11iIi11i - iII111i * OoO0O00
-   if 54 - 54: IiII + O0 + I11i * I1Ii111 - OOooOOo % oO0o
    oO00O0O0O = False
-   if 13 - 13: ooOoO0o / iII111i * OoO0O00 . OoO0O00 * ooOoO0o
+   if 54 - 54: IiII + O0 + I11i * I1Ii111 - OOooOOo % oO0o
   if oOoOO0 . get ( 'viewage' ) == '21' : i11 += ' (%s)' % ( oOoOO0 . get ( 'viewage' ) )
-  if 63 - 63: I1Ii111 / O0 * Oo0Ooo + II111iiii / IiII + Ii1I
+  if 13 - 13: ooOoO0o / iII111i * OoO0O00 . OoO0O00 * ooOoO0o
   iIo00O ( i11 , sublabel = '' , img = oO0o0 , infoLabels = Ii11iIi , isFolder = oO00O0O0O , params = oOoOO0 )
-  if 63 - 63: OoO0O00 + I1ii11iIi11i . I1Ii111 % I1Ii111
+  if 63 - 63: I1Ii111 / O0 * Oo0Ooo + II111iiii / IiII + Ii1I
  if oO0Oo0O0o :
-  if 57 - 57: II111iiii
+  if 63 - 63: OoO0O00 + I1ii11iIi11i . I1Ii111 % I1Ii111
   oOoOO0 [ 'mode' ] = 'SEARCH_LIST'
   oOoOO0 [ 'genre' ] = I1i1Iiiii
   oOoOO0 [ 'page' ] = str ( OOo0oO00ooO00 + 1 )
@@ -819,68 +818,68 @@ def Ii1i1i1i1I1Ii ( args ) :
   i11 = '[B]%s >>[/B]' % '다음 페이지'
   OOOoo0OO = str ( OOo0oO00ooO00 + 1 )
   iIo00O ( i11 , sublabel = OOOoo0OO , img = '' , infoLabels = None , isFolder = True , params = oOoOO0 )
-  if 54 - 54: Oo0Ooo + oO0o + i11iIiiIii
+  if 57 - 57: II111iiii
  if len ( Iii ) > 0 : xbmcplugin . endOfDirectory ( i1I1iI )
+ if 54 - 54: Oo0Ooo + oO0o + i11iIiiIii
  if 28 - 28: oO0o
  if 70 - 70: IiII
  if 34 - 34: I1Ii111 % IiII
  if 3 - 3: II111iiii / OOooOOo + IiII . ooOoO0o . OoO0O00
- if 83 - 83: oO0o + OoooooooOO
 def iII1iii ( genre ) :
  try :
-  I111IiiIi1 = xbmc . translatePath ( os . path . join ( __profile__ , 'watchedlist_%s.txt' % genre ) )
-  with open ( I111IiiIi1 , 'r' ) as o00o :
-   Ii1IIiiIIi = o00o . readlines ( )
+  oOoo000 = xbmc . translatePath ( os . path . join ( __profile__ , 'watchedlist_%s.txt' % genre ) )
+  with open ( oOoo000 , 'r' ) as OooOo00o :
+   IiI11i1IIiiI = OooOo00o . readlines ( )
  except :
-  Ii1IIiiIIi = [ ]
-  if 88 - 88: OoooooooOO + I11i * II111iiii % Oo0Ooo
- return Ii1IIiiIIi
- if 17 - 17: IiII * OOooOOo - OoO0O00 / i11iIiiIii
- if 79 - 79: I1Ii111 . oO0o - II111iiii . I1IiiI % ooOoO0o
- if 65 - 65: I1IiiI + OoOoOO00 / OOooOOo
- if 83 - 83: o0oOOo0O0Ooo . iII111i - Oo0Ooo
+  IiI11i1IIiiI = [ ]
+  if 60 - 60: I1ii11iIi11i * I1IiiI
+ return IiI11i1IIiiI
+ if 17 - 17: OOooOOo % Oo0Ooo / I1ii11iIi11i . IiII * OOooOOo - II111iiii
+ if 41 - 41: Ii1I
+ if 77 - 77: I1Ii111
+ if 65 - 65: II111iiii . I1IiiI % oO0o * OoO0O00
 def ii11I1 ( genre , in_params ) :
  try :
-  I111IiiIi1 = xbmc . translatePath ( os . path . join ( __profile__ , 'watchedlist_%s.txt' % genre ) )
-  Ooo0O = iII1iii ( genre )
-  if 87 - 87: IiII % II111iiii
-  with open ( I111IiiIi1 , 'w' ) as o00o :
-   I11II11I1iII = urllib . urlencode ( in_params )
-   I11II11I1iII = I11II11I1iII . encode ( 'utf-8' ) + '\n'
-   o00o . write ( I11II11I1iII )
-   if 4 - 4: OoooooooOO - i1IIi % Ii1I - OOooOOo * o0oOOo0O0Ooo
-   Ooooo00o0OoO = 0
-   for oooo0O0O0o0 in Ooo0O :
-    Ooo0oo = dict ( urlparse . parse_qsl ( oooo0O0O0o0 ) )
-    if in_params . get ( 'code' ) != Ooo0oo . get ( 'code' ) :
-     o00o . write ( oooo0O0O0o0 )
-     Ooooo00o0OoO += 1
-     if Ooooo00o0OoO >= 50 : break
+  oOoo000 = xbmc . translatePath ( os . path . join ( __profile__ , 'watchedlist_%s.txt' % genre ) )
+  iI11I = iII1iii ( genre )
+  if 11 - 11: iII111i - oO0o + II111iiii - iIii1I11I1II1
+  with open ( oOoo000 , 'w' ) as OooOo00o :
+   I1i11ii11 = urllib . urlencode ( in_params )
+   I1i11ii11 = I1i11ii11 . encode ( 'utf-8' ) + '\n'
+   OooOo00o . write ( I1i11ii11 )
+   if 81 - 81: OOooOOo - I11i % ooOoO0o - OoO0O00 / Oo0Ooo
+   Ii1iI111 = 0
+   for O0oooo00o0Oo in iI11I :
+    I1iii = dict ( urlparse . parse_qsl ( O0oooo00o0Oo ) )
+    if in_params . get ( 'code' ) != I1iii . get ( 'code' ) :
+     OooOo00o . write ( O0oooo00o0Oo )
+     Ii1iI111 += 1
+     if Ii1iI111 >= 50 : break
  except :
   None
-  if 41 - 41: OoOoOO00 * I11i / OoOoOO00 % oO0o
-  if 18 - 18: II111iiii . OoooooooOO % OoOoOO00 % Ii1I
-  if 9 - 9: OoO0O00 - Oo0Ooo * OoooooooOO . Oo0Ooo
-  if 2 - 2: OoooooooOO % OOooOOo
-def oOoOOo0oo0 ( genre ) :
+  if 86 - 86: I1ii11iIi11i * O0 * IiII
+  if 51 - 51: II111iiii + IiII . i1IIi . I1ii11iIi11i + OoOoOO00 * I1IiiI
+  if 72 - 72: oO0o + oO0o / II111iiii . OoooooooOO % Ii1I
+  if 49 - 49: oO0o . OoO0O00 - Oo0Ooo * OoooooooOO . Oo0Ooo
+def ii1Ii1IiIIi ( genre ) :
  try :
-  I111IiiIi1 = xbmc . translatePath ( os . path . join ( __profile__ , 'watchedlist_%s.txt' % genre ) )
-  with open ( I111IiiIi1 , 'w' ) as o00o :
-   o00o . write ( '' )
+  oOoo000 = xbmc . translatePath ( os . path . join ( __profile__ , 'watchedlist_%s.txt' % genre ) )
+  with open ( oOoo000 , 'w' ) as OooOo00o :
+   OooOo00o . write ( '' )
  except :
   None
-  if 60 - 60: ooOoO0o * I1Ii111 + Oo0Ooo
-  if 19 - 19: OoO0O00 * I11i / I11i . OoooooooOO - OOooOOo + i11iIiiIii
-  if 88 - 88: i11iIiiIii - ooOoO0o
-  if 67 - 67: OOooOOo . Oo0Ooo + OoOoOO00 - OoooooooOO
-def OOOoO ( args ) :
+  if 83 - 83: I11i / I1ii11iIi11i
+  if 34 - 34: I1IiiI * Oo0Ooo * I1Ii111 / OoO0O00 * I11i / iIii1I11I1II1
+  if 74 - 74: Oo0Ooo / i11iIiiIii - II111iiii * o0oOOo0O0Ooo
+  if 5 - 5: OOooOOo - OOooOOo . Oo0Ooo + OoOoOO00 - OOooOOo . oO0o
+def IiIi1i1ii ( args ) :
  o0oO0O0o0O00O = args . get ( 'genre' )
- if 14 - 14: I11i . iIii1I11I1II1 . OoooooooOO . II111iiii / o0oOOo0O0Ooo
+ if 11 - 11: II111iiii / o0oOOo0O0Ooo
  O0OOo = xbmcgui . Dialog ( )
  Iiii = O0OOo . yesno ( __name__ , __language__ ( 30201 ) . encode ( 'utf8' ) , __language__ ( 30202 ) . encode ( 'utf8' ) )
  if Iiii == False : sys . exit ( )
  if 21 - 21: i11iIiiIii / i1IIi + I1IiiI * OOooOOo . I1Ii111
- oOoOOo0oo0 ( o0oO0O0o0O00O )
+ ii1Ii1IiIIi ( o0oO0O0o0O00O )
  if 84 - 84: O0 . I11i - II111iiii . ooOoO0o / II111iiii
  xbmc . executebuiltin ( "Container.Refresh" )
  if 47 - 47: OoooooooOO
@@ -950,7 +949,7 @@ elif O0O == 'WATCH' :
  OOo ( oOoOO0 )
  if 22 - 22: ooOoO0o - ooOoO0o % OOooOOo . I1Ii111 + oO0o
 elif O0O == 'MYVIEW_REMOVE' :
- OOOoO ( oOoOO0 )
+ IiIi1i1ii ( oOoOO0 )
  if 63 - 63: I1IiiI % I1Ii111 * o0oOOo0O0Ooo + I1Ii111 / Oo0Ooo % iII111i
 elif O0O == 'SEARCH' :
  Oo00OoOo ( oOoOO0 )
