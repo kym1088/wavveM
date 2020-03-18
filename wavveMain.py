@@ -33,7 +33,8 @@ o0oO0 = [
  { 'title' : '홈' , 'uicode' : 'GN1' , 'came' : 'home' }
  , { 'title' : 'LIVE 채널' , 'uicode' : 'GN3' , 'came' : 'live' }
  , { 'title' : 'VOD 방송' , 'uicode' : 'GN2' , 'came' : 'broadcast' }
- , { 'title' : '영화(Movie)' , 'uicode' : 'GN4' , 'came' : 'movie' }
+
+, { 'title' : '영화(Movie)' , 'uicode' : 'GN17' , 'came' : 'movie' }
  , { 'title' : '해외시리즈' , 'uicode' : 'GN12' , 'came' : 'global' }
 
 # i1IIi . I1Ii111 / IiII * OoooooooOO + I11i * oO0o
