@@ -6,4 +6,5 @@
 	<setting type="sep"/>
 	<setting id="selected_quality" type="enum" label="10201" lvalues="10301|10302|10303|10304" default="1" />
 	<setting id="exclusion21" type="bool" label="10321" default="true" />
+	<setting id="add_infoyn"  type="bool" label="10322" default="false" />
 </settings>
