@@ -17,11 +17,15 @@
 	<string id="10314">profile 4</string>
 	<!-- Warning -->
 	<string id="10321">Over 21 Exclusion</string>
-	<string id="10322">Movie Info View (warning:speed down)</string>
+	<string id="10323">Movie Info View (warning:speed down)</string>
 	<!-- Warning -->
 	<string id="10341">Thumbnail</string>
 	<string id="10342">landscape</string>
 	<string id="10343">portrait</string>
+	<!-- Warning -->
+	<string id="10351">VOD Watch list</string>
+	<string id="10352">episode list</string>
+	<string id="10353">episode play</string>
 	<!-- Warning -->
 	<string id="30101">Set your ID or Password.</string>
 	<string id="30102">Are you change settings now?</string>
