@@ -2,7 +2,20 @@
 웨이브 애드온 for Kodi18
 
 
+###
+# 1.6.1 이후 부터는 저장소를 통해서만 업데이트 됩니다.
+* [Korea OTT Package for Kodi 18 (public)-18.0.0.zip](https://github.com/kym1088/repository_public/raw/master/repository.nightrain_v18_public.zip)
+* [Korea OTT Package for Kodi 19 (public)-19.0.0.zip](https://github.com/kym1088/repository_public/raw/master/repository.nightrain_v19_public.zip)
+###
+
+
+# 공통
+- 
+
 # 변경사항
+
+## Version 1.6.2 (2020.09.09)
+- timezone
 
 ## Version 1.6.1 (2020.09.08)
 - 특정스킨 오류 수정
